@@ -8,6 +8,12 @@ ledger, and a secure identity agent backed by the Secure Enclave.
 This repo holds public release artifacts only. The development source stays
 private.
 
+## Latest release
+
+The current public beta is **[Bad Apple 0.1.1](https://github.com/savageAZfck/bad-apple-releases/releases/tag/v0.1.1)**.
+
+See the [release notes](https://github.com/savageAZfck/bad-apple-releases/releases/tag/v0.1.1) for what's new.
+
 ## What you get
 
 - **Local 7B MLX model** for coding, reasoning, and general queries.
