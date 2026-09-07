@@ -31,7 +31,8 @@ See the [release notes](https://github.com/savageAZfck/bad-apple-releases/releas
 
 - macOS 26.0 or later.
 - Apple Silicon (M1 or newer).
-- 8 GB unified memory minimum; 16 GB recommended.
+- 6 GB unified memory is the hard preflight minimum, but 8 GB is the practical
+  floor; 16 GB is recommended for comfortable use.
 - About 6 GB of free disk space once the 7B model cache is populated.
 
 ## Install
