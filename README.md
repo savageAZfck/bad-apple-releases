@@ -10,7 +10,7 @@ private.
 
 ## Latest release
 
-The current public beta is **[Bad Apple 0.1.1](https://github.com/savageAZfck/bad-apple-releases/releases/tag/v0.1.1)**.
+The current public beta is **[Bad Apple 0.1.2](https://github.com/savageAZfck/bad-apple-releases/releases/tag/v0.1.2)**.
 
 See the [release notes](https://github.com/savageAZfck/bad-apple-releases/releases/tag/v0.1.1) for what's new.
 
