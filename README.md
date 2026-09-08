@@ -8,11 +8,14 @@ ledger, and a secure identity agent backed by the Secure Enclave.
 This repo holds public release artifacts only. The development source stays
 private.
 
-## Latest release
+## Download the latest beta
 
-The current public beta is **[Bad Apple 0.1.2](https://github.com/savageAZfck/bad-apple-releases/releases/tag/v0.1.2)**.
+**[Bad Apple 0.1.2 — Download `Bad_Apple-0.1.2-unsigned.zip`](https://github.com/savageAZfck/bad-apple-releases/releases/download/v0.1.2/Bad_Apple-0.1.2-unsigned.zip)**
 
-See the [release notes](https://github.com/savageAZfck/bad-apple-releases/releases/tag/v0.1.1) for what's new.
+Or view the release page with notes, checksum, and install instructions:
+**[Bad Apple v0.1.2 release](https://github.com/savageAZfck/bad-apple-releases/releases/tag/v0.1.2)**
+
+Latest release will always be at `https://github.com/savageAZfck/bad-apple-releases/releases/latest`.
 
 ## What you get
 
@@ -47,8 +50,8 @@ brew install --cask bad-apple
 Or manually:
 
 ```bash
-unzip Bad_Apple-0.1.0-unsigned.zip
-cd Bad_Apple-0.1.0-unsigned
+unzip Bad_Apple-0.1.2-unsigned.zip
+cd Bad_Apple-0.1.2-unsigned
 sudo ./install.sh
 ```
 
