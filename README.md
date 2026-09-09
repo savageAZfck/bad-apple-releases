@@ -8,12 +8,28 @@ ledger, and a secure identity agent backed by the Secure Enclave.
 This repo holds public release artifacts only. The development source stays
 private.
 
+## What’s new in 0.1.3
+
+- **Curious autopilot now thinks and acts.** `curious_self_improvement` feeds
+  cert, doctor, firewall, git, and source-marker data into the local 7B model,
+  proposes a concrete `{"patch":{...}}` or `{"no_patch":true}`, and applies the
+  patch when Autopilot is on.
+- **Bounded self-modification.** The autopilot can edit text files, create missing
+  data files (e.g., the output firewall blocklist), and verify its own writes,
+  but it is blocked from touching core control files such as the engine and
+  policy source.
+- **Automatic blocklist creation.** A missing `/var/lib/bad_apple/blocklist.txt`
+  is created on the first `curious check`, so the air-gap cert suite reports a
+  clean firewall state.
+
 ## Download the latest beta
 
-**[Bad Apple 0.1.2 — Download `Bad_Apple-0.1.2-unsigned.zip`](https://github.com/savageAZfck/bad-apple-releases/releases/download/v0.1.2/Bad_Apple-0.1.2-unsigned.zip)**
+**[Bad Apple 0.1.3 — Download `Bad_Apple-0.1.3-unsigned.zip`](https://github.com/savageAZfck/bad-apple-releases/releases/download/v0.1.3/Bad_Apple-0.1.3-unsigned.zip)**
 
 Or view the release page with notes, checksum, and install instructions:
-**[Bad Apple v0.1.2 release](https://github.com/savageAZfck/bad-apple-releases/releases/tag/v0.1.2)**
+**[Bad Apple v0.1.3 release](https://github.com/savageAZfck/bad-apple-releases/releases/tag/v0.1.3)**
+
+Older releases are available at [https://github.com/savageAZfck/bad-apple-releases/releases](https://github.com/savageAZfck/bad-apple-releases/releases).
 
 Latest release will always be at `https://github.com/savageAZfck/bad-apple-releases/releases/latest`.
 
@@ -50,8 +66,8 @@ brew install --cask bad-apple
 Or manually:
 
 ```bash
-unzip Bad_Apple-0.1.2-unsigned.zip
-cd Bad_Apple-0.1.2-unsigned
+unzip Bad_Apple-0.1.3-unsigned.zip
+cd Bad_Apple-0.1.3-unsigned
 sudo ./install.sh
 ```
 
