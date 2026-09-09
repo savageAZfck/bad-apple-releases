@@ -35,16 +35,19 @@ Latest release will always be at `https://github.com/savageAZfck/bad-apple-relea
 
 ## What you get
 
-- **Local 7B MLX model** for coding, reasoning, and general queries.
+- **Local 7B/9B MLX model registry** for coding, reasoning, vision, and general
+  queries, with an optional 0.5B fast tier.
 - **Native voice and TTS** — speak to it, and it speaks back.
 - **Secure Enclave identity** for signing and verifying SLICKS 2.0 proofs.
 - **Air-gapped by default** — no required network once model weights are cached.
 - **Output firewall** to block unwanted tokens and patterns.
 - **Tool system** for local files, shell, AppleScript, Shortcuts, screen capture,
-  workspace memory, and more, with human approval for destructive actions.
-- **Menu bar app** for quick access, model download, settings, and monitoring.
-- **Native CLI** (`badapple`) and fetch helper (`badapple-fetch`) linked to
-  `/usr/local/bin`.
+  workspace memory, and more. Destructive actions ask for approval by default;
+  the menu-bar **Autopilot** toggle can skip approval for trusted actions.
+- **Menu bar app** as the primary daily interface — chat, model download,
+  settings, voice, dashboard, Autopilot, and monitoring.
+- **Native CLI** (`badapple`) and fetch helper (`badapple-fetch`) for install,
+  scripting, and advanced use.
 
 ## Requirements
 
@@ -74,6 +77,10 @@ sudo ./install.sh
 The installer runs a preflight check, copies `Bad Apple.app` into `/Applications`,
 installs system LaunchDaemons, links `badapple` and `badapple-fetch` into
 `/usr/local/bin`, and loads the menu bar agent.
+
+> **You only need the terminal for install.** After that, day-to-day use is the
+> menu bar app, voice, and the local dashboard. Advanced users can still use the
+> `badapple` CLI for scripting or diagnostics.
 
 ## First run
 
